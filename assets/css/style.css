@@ -1,0 +1,140 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.intro h1 {
+  font-family: 'Bungee', monospace;
+  font-size: 3em;
+  color:  #00cc99;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+}
+.intro h2 {
+    font-family: 'Bungee', monospace;
+    text-decoration: underline;
+    text-decoration-color: #00cc99; 
+}
+.intro h3 {
+    font-family: 'Bungee', monospace;
+    text-decoration: underline;
+    color: #00cc99;
+    text-decoration-color: #ff99ff; 
+}
+.intro {
+    font-family: Arial , sans-serif;
+    font-size: 2em;
+    
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:    #996699;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #83a0a6;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #00cc99;
+	}
+
+body { 
+	font-family: Arial , sans-serif;
+	color:   black; 
+    font-size: 1em;
+	background: url(../images/background.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 50px;
+    margin-right: 330px;
+	padding: 50px;
+	}
+
+
+.par1 {
+	width:250px;
+    border-bottom:2px solid #00cc99;
+    float: left;
+}
+.par2 {
+    margin:125px 100px 30px 300px;
+	padding:40px 0 15px 30px;
+	border-bottom:2px solid #00cc99;
+	height:100%;
+}
+.options {
+    margin:125px 100px 30px 300px;
+	padding:40px 0 15px 30px;
+	border-bottom:2px solid #00cc99;
+	height:100%;
+}
+
+
+
+.sidebar {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 270px;
+    width: 180px;
+    height:400px;
+}
+.sidebar ul {
+	text-align: left;
+	list-style: none;
+	margin: 0px;
+	padding:0 0 15px 35px;
+	font-size:20px;
+	font-family: Arial, sans-serif;
+	border:0px dashed;
+	width:130px;
+	}
+#update {
+  font-family: 'Bungee', monospace;
+  font-size: 3em;
+  color:  #00cc99;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  
+}
+.page-wrapper { 
+	background: url() no-repeat top right; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+footer {
+  background: 
+    url(../images/html-css.jpg) no-repeat;
+  background-size: cover;
+  margin: 5.5em 1px -1px;
+  text-align: center;
+  font-family: "Bungee" ,sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10em;
+    border-style: outset;
+    border-color: #ffffff;
+}
+footer a:link, footer a:visited { 
+	color: #00cc99; 
+    margin-top: auto;
+    
+	}
